@@ -2,13 +2,15 @@
   "name": "with-redux-types",
   "version": "1.0.0",
   "description": "Runtime type checker for redux with PropTypes",
-  "main": "index.js",
+  "main": "index.dist.js",
   "repository": "git@github.com:Brianzchen/with-redux-types.git",
   "author": "Brian Chen <bzchen93@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "yarn test && babel index.js -o index.dist.js",
+    "prepublish": "yarn build"
   },
   "peerDependencies": {
     "prop-types": "^15.6.0"
