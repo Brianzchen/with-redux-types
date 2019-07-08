@@ -1,0 +1,25 @@
+{
+  "name": "with-redux-types",
+  "version": "1.0.0",
+  "description": "Runtime type checker for redux with PropTypes",
+  "main": "index.js",
+  "repository": "git@github.com:Brianzchen/with-redux-types.git",
+  "author": "Brian Chen <bzchen93@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0",
+    "prop-types": "^15.7.2"
+  }
+}
