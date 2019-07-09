@@ -17,6 +17,8 @@ yarn add with-redux-types
 
 ## Usage
 
+Because this is a runtime validation, it's recommended you run this in production mode to get the most value, which you can do by importing `prop-types/prop-types` instead of `prop-types`.
+
 ```js
 // types.js
 import PropTypes from 'prop-types/prop-types';
@@ -45,8 +47,10 @@ export default withReduxTypes((state = initialState, action) => {
     default:
       return state;
   }
-}), types, name)
+}), types, 'name')
 ```
+
+![Sample error message](./error-message.png)
 
 ## Development
 
