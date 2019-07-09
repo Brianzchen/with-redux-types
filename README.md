@@ -50,6 +50,8 @@ export default withReduxTypes((state = initialState, action) => {
 }), types, 'name')
 ```
 
+### Output
+
 ![Sample error message](./error-message.png)
 
 ## Development
