@@ -47,7 +47,7 @@ export default withReduxTypes((state = initialState, action) => {
     default:
       return state;
   }
-}), types, 'name')
+}), types, 'racing')
 ```
 
 ### Output

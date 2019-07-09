@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Runtime type checker for redux with PropTypes",
   "main": "index.dist.js",
+  "keywords": [
+    "schema",
+    "validation",
+    "prop-types",
+    "redux"
+  ],
   "repository": "git@github.com:Brianzchen/with-redux-types.git",
   "author": "Brian Chen <bzchen93@gmail.com>",
   "license": "MIT",
