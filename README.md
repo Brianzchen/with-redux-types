@@ -68,12 +68,6 @@ yarn
 yarn test
 ```
 
-## Author
-
-👤 **Brian Chen <bzchen93@gmail.com>**
-
-* Github: [@brianzchen](https://github.com/brianzchen)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
