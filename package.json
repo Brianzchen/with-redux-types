@@ -16,7 +16,7 @@
   "scripts": {
     "test": "jest",
     "build": "yarn test && babel index.js -o index.dist.js",
-    "prepublish": "yarn build"
+    "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
     "prop-types": "^15.6.0"
